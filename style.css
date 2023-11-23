@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.welcome img{
+    width: 100%;
+    height: auto;
+}
+
+#botaoJogar{
+    border: 5px solid;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    margin-top: 25%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.game-container{
+    display: none;
+}
